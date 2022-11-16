@@ -7,7 +7,7 @@ What's up everyone! I am Zachariah (Zach) Jeter. From and Currently living in th
 
 This website will be foucsed on different coffee shop options you will have to select from. :coffee:
 
-#Table Of Contents :
+# Table Of Contents :
 
 [Code 102 Reading Notes](https://github.com/Zjet95/reading-notes102)
 [Code 201 Reading Notes](/home/adduser/projects/courses/code-102/ZachsProfilePage/Code_201Notes)

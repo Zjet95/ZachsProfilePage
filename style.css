@@ -1,0 +1,11 @@
+header {
+    background-color: #3d2c25;
+}
+
+#backgroundimg {
+    border-radius: 5%;
+    width: 25%;
+    height: 25%;
+    opacity: .5;
+    float: right;
+}

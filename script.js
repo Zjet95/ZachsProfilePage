@@ -2,11 +2,13 @@
 alert("Welcome To The Coffee Junkie Coffee Shop!");
 let usersName = prompt("What is your favortie coffee type?");
 usersName;
+let response
 if (usersName === "") {
     alert("You didnt give me your favorite coffee type")
 }
 else {
-    icedOrHot()
+    response = icedOrHot()
+    console.log(response)
 }
 let yesNo = prompt("Do you want to see our Coffee selections? Please type yes or no")
 if (yesNo === "yes") {
@@ -23,10 +25,19 @@ function icedOrHot() {
     console.log("The Customers favortie type of coffee is:" + typeName);
     if (typeName === "")
         alert("You didnt tell what type of coffee you enjoy")
+    console.log(typeName)
     return typeName;
 }
+document.write("<p> The Customers favortie type of coffee is " + response + "</p>")
 
+// let usersName = proompt
 
+// function rateMyPage(){
+//     let rating = prompt("How many stars would you rate my website")
+//     for (let i = 0; i <rating; i++){
+//         document.write("")
+//     }
+// }
 
     //     }
 
